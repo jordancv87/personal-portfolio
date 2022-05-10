@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oleo+Script+Swash+Caps&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    ;
+    
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    height: 75px;
+    line-height: 75px;
+    width: 100%;
+    text-align: center;
+    background-color: #1f1f1f;
+    z-index: 1;
+}
+nav .logo {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+nav .logo p {
+    float: left;
+    color: #c6b08b;
+    text-transform:lowercase;
+    padding: 0px 100px;
+}
+nav li {
+    float: right;
+    list-style-type: none;
+}
+nav li a {
+    color: #c6b08b;
+    text-decoration: none;
+    
+    font-size: 22px;
+    padding: 0px 32px;
+}
+nav li a:hover {
+    color: #be1d3a;
+}
+#welcome-section {
+    height: 100vh;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./image/pexels-mateusz-dach-450035.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+h1 {
+    padding: 20%;
+    background-size: 100%;
+    color: #1f1f1f;
+    text-shadow: 0 0 3px #c6b08b;
+    
+}
+#about {
+    padding: 10%;
+    color: #18181b;
+    background-color: #c6b08b;
+}
+#info {
+    color: #18181b;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+    padding: 6%;
+    padding-top: 8%;
+}
+#intro-2 {
+    text-align: center;
+    align-items: center;
+    columns: 1;
+    text-transform:lowercase;
+    font-size: 1.6em;
+    margin: 2rem auto;
+    width: 700px;
+}
+.dt {
+    list-style-type: none;
+    text-decoration: none;
+    color: #be1d3a;
+}
+#projects {
+    background-color: #18181b;
+    height:700px; 
+    padding-bottom: 10%;  
+}
+#proinfo {
+    padding: 6%;
+}
+.port-image  {
+    padding-inline-start: 13% ;
+    width: 350px;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;   
+}
+.project-tile {
+	height:280px;
+	float:left;
+	position:relative;
+}
+.subject {
+    padding-top:10px;
+    font-size:1.5em;
+}
+.anchor {
+    color: #be1d3a;
+    text-decoration: none;
+}
+#proinfo {
+    color: #c6b08b;
+    text-align: center;
+    font-size: 3em;
+}
+.projects-links  {
+    width: 350px;
+    padding-left: 60px;
+        
+}
+.media {
+    padding: 8%;
+}
+footer {
+    background-color: #c6b08b;
+}
+.social  {
+    padding-inline-start: 11% ;
+    list-style: none;
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 3em;
+    float: left;
+    transition: all 0.5s ease; 
+}
+.social a {
+    color: #18181b;
+}
+.social a:hover {
+    color: #be1d3a;
+}
+.copy {
+    padding: 22px;
+    text-align: center;
+    color: #c6b08b;
+    font-size: 2em;
+    background-color: #1f1f1f;
+}
